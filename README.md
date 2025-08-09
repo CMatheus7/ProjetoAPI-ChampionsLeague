@@ -69,7 +69,8 @@ src/
 - npm start
 
 ## Ou no modo de desenvolvimento:
-npm run dev
+
+- npm run dev
 
 # Acessar no navegador
 
