@@ -35,42 +35,43 @@ src/
 
 ## json
 
-[
-  { "id": 1, "name": "Lionel Messi", "club": "Inter Miami" },
-  { "id": 2, "name": "Cristiano Ronaldo", "club": "Al Nassr" }
-]
+
+ -   { "id": 1, "name": "Lionel Messi", "club": "Inter Miami" },
+ -  { "id": 2, "name": "Cristiano Ronaldo", "club": "Al Nassr" }
+
 
 
 ## Teste via cURL:
 
-curl -X GET http://localhost:3333/api/players
+- curl -X GET http://localhost:3333/api/players
 
 ## Listar Clubes
-Rota: GET /api/clubs
+- Rota: GET /api/clubs
 
-Descrição: Retorna todos os clubes cadastrados.
+## Descrição: Retorna todos os clubes cadastrados.
 
-Exemplo de Resposta:
+- Exemplo de Resposta:
 
-[
-  { "id": 1, "name": "Real Madrid" },
-  { "id": 2, "name": "Barcelona" }
-]
+
+-   { "id": 1, "name": "Real Madrid" },
+-  { "id": 2, "name": "Barcelona" }
+
 
 ## ▶️ Como Executar o Projeto
-Clonar o repositório
+- Clonar o repositório
 
 ## Instalar as dependências
 
-npm install
+- npm install
 
 ## Iniciar o servidor
-npm start
+
+- npm start
 
 ## Ou no modo de desenvolvimento:
 npm run dev
 
-Acessar no navegador
+# Acessar no navegador
 
 http://localhost:3333/api/players
 
@@ -79,7 +80,7 @@ http://localhost:3333/api/clubs
 ## 📌 Observações
 Certifique-se de que a porta 3333 esteja livre antes de iniciar o servidor.
 
-A API utiliza dados estáticos para demonstração, mas pode ser integrada a um banco de dados.
+- A API utiliza dados estáticos para demonstração, mas pode ser integrada a um banco de dados.
 
 ## 📜 Licença
 Este projeto é open-source e está disponível para uso livre, modificação e distribuição.
@@ -87,6 +88,5 @@ Este projeto é open-source e está disponível para uso livre, modificação e 
 
 Esse modelo já está **documentado para uso real**, com **exemplos de resposta, cURL e instruções de execução**.  
 
-Se quiser, posso melhorar ainda mais adicionando **badges de status do projeto**, **versão do Node recomendada** e **guia para deploy no Render ou Railway** para deixar o README digno de GitHub profissional.
 
 
